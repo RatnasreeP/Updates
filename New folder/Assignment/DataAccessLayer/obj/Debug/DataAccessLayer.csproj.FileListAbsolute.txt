@@ -1,0 +1,5 @@
+C:\Users\trainee\Desktop\assignment\Assignment\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\trainee\Desktop\assignment\Assignment\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\trainee\Desktop\assignment\Assignment\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\trainee\Desktop\assignment\Assignment\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\trainee\Desktop\assignment\Assignment\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
