@@ -1,0 +1,7 @@
+C:\Users\trainee\Desktop\assignment\Assignment\BusinessAccessLayer\bin\Debug\BusinessAccessLayer.dll
+C:\Users\trainee\Desktop\assignment\Assignment\BusinessAccessLayer\bin\Debug\BusinessAccessLayer.pdb
+C:\Users\trainee\Desktop\assignment\Assignment\BusinessAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\trainee\Desktop\assignment\Assignment\BusinessAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\trainee\Desktop\assignment\Assignment\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\trainee\Desktop\assignment\Assignment\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.dll
+C:\Users\trainee\Desktop\assignment\Assignment\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.pdb

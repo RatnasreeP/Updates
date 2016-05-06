@@ -1,0 +1,10 @@
+C:\Users\trainee\Desktop\assignment\Assignment\Assignment\bin\Assignment.dll.config
+C:\Users\trainee\Desktop\assignment\Assignment\Assignment\bin\Assignment.dll
+C:\Users\trainee\Desktop\assignment\Assignment\Assignment\bin\Assignment.pdb
+C:\Users\trainee\Desktop\assignment\Assignment\Assignment\bin\BusinessAccessLayer.dll
+C:\Users\trainee\Desktop\assignment\Assignment\Assignment\bin\DataAccessLayer.dll
+C:\Users\trainee\Desktop\assignment\Assignment\Assignment\bin\BusinessAccessLayer.pdb
+C:\Users\trainee\Desktop\assignment\Assignment\Assignment\bin\DataAccessLayer.pdb
+C:\Users\trainee\Desktop\assignment\Assignment\Assignment\obj\Debug\Assignment.csprojResolveAssemblyReference.cache
+C:\Users\trainee\Desktop\assignment\Assignment\Assignment\obj\Debug\Assignment.dll
+C:\Users\trainee\Desktop\assignment\Assignment\Assignment\obj\Debug\Assignment.pdb
