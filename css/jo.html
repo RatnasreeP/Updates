@@ -1,0 +1,64 @@
+ <html>
+<head>
+</head>
+ <body>
+ <script type="text/javascript">
+  function validatecode()
+  {
+  
+   var x=document.getElementById("code").value;
+   var reg=/[^1-9]+$/;
+   if(x!='')
+   {
+   if(x.length>5)
+   {
+    document.write("Invalidcode");
+   }
+   if(x.match(reg))
+   {
+    document.write("Invalidcode");
+   }
+   if(x.charAt(0)==0)
+   {
+    document.write("Invalidcode");
+   }
+  }
+ </script>
+
+
+<input type="text" id="code" maxlength="6" >
+<input type="button" onclick="validatecode();" value="submit">
+ </body>
+ </html>
+<html>
+<head>
+</head>
+ <body>
+ <script type="text/javascript">
+  function validatecode()
+  {
+  
+   var x=document.getElementById("code").value;
+   var reg=/[^1-9]+$/;
+   if(x!='')
+   {
+   if(x.length>5)
+   {
+    document.write("Invalidcode");
+   }
+   if(x.match(reg))
+   {
+    document.write("Invalidcode");
+   }
+   if(x.charAt(0)==0)
+   {
+    document.write("Invalidcode");
+   }
+  }
+ </script>
+
+
+<input type="text" id="code" maxlength="6" >
+<input type="button" onclick="validatecode();" value="submit">
+ </body>
+ </html>

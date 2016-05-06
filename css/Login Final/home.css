@@ -1,0 +1,103 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color:white;
+    background-image: url("sky.jpg");
+    background-repeat: no-repeat;
+
+}
+
+.mainBody {
+    /*background: rgba(110, 115, 255, 0.6);*/
+    border-radius: 2px;
+    position: absolute;
+    top: 37%;
+    left: 0;
+    width: 1%;
+    height: 1px;
+    margin-top: -200px;
+    margin-left: 14%;
+    overflow: hidden;
+    box-shadow: 0px 1px 20px 3px black;
+}
+
+
+
+.logoPart
+{
+    width:10%;
+    height: 10px;
+    float: left;
+    background-color:#8a92ff;
+
+
+}
+.headerPart{
+
+     height: 12%;
+    width: 100%;
+    background-color: #8a92ff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8a92ff;
+}
+
+li {float:left;}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 25px;
+    text-decoration: none;
+
+   /* border-left-style: solid;
+    border-left-color: #ccd361;
+    border-left-width: 1px;
+*/
+}
+
+li a:hover {
+    transform:scale(1.1);
+    background-color: rgba(17, 17, 17, 0.62);}
+.bodyPart{
+    height: 88%;
+    width:100%;
+    padding:10px 10px;
+}
+
+#welcome{
+    height: 88%;
+    width:100%;
+    padding:10px 10px;
+    position: relative;
+    text-align: center;
+    display: block;
+}
+
+#about{
+    height: 88%;
+    width:100%;
+    padding:10px 10px;
+    position: relative;
+    display:none;
+
+    font-size: 15px;
+    color:black;
+
+}
+
+ #profile{
+    height: 88%;
+    width:100%;
+    padding:15px 15px;
+    position: relative;
+    Display:none;
+     color:white;
+
+}
+

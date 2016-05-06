@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">	
+	function display()
+		{ 
+		
+		    var profile=[];
+			profile=JSON.parse(localStorage.getItem('profile'));
+			console.log(profile);
+			var name=profile[0].name1.split("@");			//var pname=progile[0].name1;
+             document.getElementById("pname").innerHTML=name[0];
+             var uname=profile[0].name1;		//var pname=progile[0].name1;
+             document.getElementById("puname").innerHTML=uname;
+              document.getElementById("location").innerHTML="hyderabad";
+		}
+	</script>
+</head>
+<body>
+<form>
+name:<label id="pname"></label><br>
+uname:<label id="puname"></label><br>
+location:<label id="location"></label>
+
+</form>
+<p>welcome</p>
+<li><a href="#" onclick="return display()" >click</a></li>
+</body>
+</html>

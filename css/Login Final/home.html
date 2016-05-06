@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <script src="HomeValidation.js"></script>
+    <meta charset="UTF-8">
+    <title>home</title>
+    <script src="jquery.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+                $(".mainBody").animate({
+
+                width: '75%',
+                height: '550px'
+
+
+            });
+
+
+        });
+    </script>
+    <script language="JavaScript">
+        function setVisibility(cls, visibility) {
+
+            switch (cls) {
+                case 'about':
+                    document.getElementById(cls).style.display = visibility;
+                    document.getElementById('welcome').style.display = 'none';
+                    document.getElementById('profile').style.display = 'none';
+                    break;
+                case 'profile':
+                    document.getElementById(cls).style.display = visibility;
+                    document.getElementById('about').style.display = 'none';
+                    document.getElementById('welcome').style.display = 'none';
+                    break;
+            }
+        }
+
+        </script>
+</head>
+<body>
+
+<div class="mainBody">
+
+    <div class="headerPart">
+        <div class="logoPart">
+            <img src="logo.png" alt="logo" width="70" height="70"/>
+        </div>
+        <ul>
+
+            <li onclick="setVisibility('about', 'block');" style=" border-left: solid;
+                 border-left-width: 1px;
+                    border-left-color: lightslategrey;"><a href="#"  >About</a></li>
+           <li onclick="display()" > <a> Profile</a></li>
+            <span style="float:right;margin-right:1%;margin-top: 20px; ">
+                <li>
+                    <a href="index.html" style="border-radius: 30px;padding:5px 5px;">LogOut</a>
+                </li>
+            </span>
+            </ul>
+
+    </div>
+
+    <div class="bodyPart">
+        <div id="welcome">
+            <h1>Welcome you succefully loged in.</h1>
+            </div>
+        <div id="about">
+            <pre>
+                Paradigm Group is a multifaceted group with wide ranging business interests.With a global
+     presence and affiliation with some of the most prolific organizations today,the Group is a
+     shining example of entrepreneurship and dynamism.
+
+                The IT businesses spread across America, Asia and Africa form the core of the Group. These
+      entrepreneurial ventures took root in 1998 in Columbia, Maryland, when Paradigm Infotech was born.
+      Incorporated with the vision of providing software solutions of the highest standard through customer
+      focused approach backed by high quality processes, Paradigm Infotech is now recognized as one of the
+       finest IT companies in America.
+
+                Concentrating on providing world class IT services, Product Engineering, Application
+        Engineering and offshore support and development services, Paradigm Infotech carved a niche for
+        itself in a dynamic and demanding market.
+            </pre>
+            </div>
+        <div id="profile">
+            name:<label id="pname"></label><br>
+            uname:<label id="puname"></label><br>
+            location:<label id="location"></label>
+
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>

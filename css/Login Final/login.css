@@ -1,0 +1,104 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color:white;
+    background-image: url("sky.jpg");
+    background-repeat: no-repeat;
+    font-weight: 300;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+
+.mainBody {
+   /*background: #6e73ff;*/
+    background: -webkit-linear-gradient(top left, #427bff 0%, #2fb9ff 100%);
+    background: linear-gradient(to bottom right, #2342ff 0%, #5b5f7f 100%);
+    border-radius: 2px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 50%;
+    height: 450px;
+    margin-top: -200px;
+    margin-left: 25%;
+    overflow: hidden;
+
+    box-shadow: 0px 1px 20px 3px black;
+}
+
+
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 0;
+    height: 450px;
+    text-align: center;
+}
+
+
+form {
+    padding: 20px 0;
+    position: relative;
+    z-index: 2;
+}
+form input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 250px;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    font-weight: 300;
+}
+form input:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+form input:focus {
+    background-color: white;
+    width: 300px;
+    color: #9f8aff;
+}
+form button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: #9f8aff;
+    border-radius: 20px;
+    width: 150px;
+    margin-top:20px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+
+}
+form button:hover {
+    background-color:#66D399;
+    display: run-in;
+}
+
+.imgClass{
+    margin-left:5px;
+    border-radius: 50%;
+}
+

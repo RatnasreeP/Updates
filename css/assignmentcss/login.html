@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+	#formid{
+		line-height: 40px;
+		margin-left: 10px;
+	}
+</style>
+<script type="text/javascript">
+ 
+	function validate()
+	{
+		
+		var profile=[];
+		var tempprofile=[];
+		var pro={};
+		var x,profile1;
+		var c=0;
+	
+
+		pro.name1=document.getElementById("name").value;
+		pro.password1=document.getElementById("password").value;
+	
+		//profile=JSON.parse(localStorage.getItem('profile'));
+	
+		profile.push(pro);
+		//for(var i=0;i<profile.length;i++)
+		//{
+        localStorage.setItem('profile', JSON.stringify(profile));
+         //}
+       //profile=JSON.parse(localStorage.getItem('profile'));
+        console.log(profile);
+       /* for(x in profile)
+        {
+        	var obj=profile[x];
+        	console.log(obj);
+        }*/
+      /*  for(var i=0;i<profile.length;i++)
+        {
+             if((profile[i].name1===document.getElementById("name").value)&&(profile[i].password1===document.getElementById("password").value))
+             {
+             	 c++;
+             	 window.location="home.html";
+                
+             }
+        }
+        if(c==0)
+        {
+        	 alert("enter valid");
+        }*/
+        redirect();
+    }
+        function namevalidate()
+        {    
+        	var name1=document.getElementById("name").value;
+		
+        	 var reg = /^[a-zA-Z0-9_.-]+@[a-zA-Z0-9]+.([a-z]{2,3})+.([a-z]{2,3})$/;
+             
+             if(name1.length==0)
+             {
+             	document.getElementById("validname").innerHTML="enter user name";
+             }
+         
+           else  
+          {
+          	if(!(name1.match(reg)) )
+          	{
+          		document.getElementById("validname").innerHTML="name should be in proper format";
+          	}
+          	    
+         } 
+           var name=[];
+           name=name1.split("@");
+	}
+	function passwordvalidate()
+	{
+		var password1=document.getElementById("password").value;
+		var reg=/^(?=.*[0-9])(?=.*[a-zA-Z])([a-zA-Z0-9]+)$/;
+		if(password1.length==0)
+		{  
+			
+            document.getElementById("validpassword").innerHTML="enter password";
+            return false;
+		}
+		else if (!(password1.match(reg)))
+		{  
+			
+			document.getElementById("validpassword").innerHTML="password should be alphanumeric ";
+			 return false;
+		}
+		else
+		{
+			
+		validate();
+	     }
+	     valdphone();
+	}
+	function redirect()
+	{
+		
+		var password1=document.getElementById("password").value;
+		var name1=document.getElementById("name").value;
+		if(name1 && password1 )
+		{
+			window.location="home.html";
+		}
+		else
+		{
+			alert("plz enter values");
+			return false;
+		}
+		
+	}
+	function validaphone()
+	{
+		var phone1=document.getElementById("phone").value;
+		var reg=/^(?!0{6})[A-Z0-9][0-9]{5}$/;
+		if(phone1.match(reg))
+		{
+			alert("wrong");
+		}
+	}
+
+</script>
+	<title></title>
+</head>
+<body>
+
+<div>
+<form align="center" id="formid" name="login"  >
+		<div><label >Name</label>  <input type="Email" name="uname" id="name"  ></input> <label id="validname"> </label>
+	</div>
+
+	<div><label>Password</label> <input type="password"  id="password" onfocus="return namevalidate()" required></input>
+	<label id="validpassword"></label></div>
+
+<div><input type="text" id="phone"> </input></div>
+   
+	<input type="button" value="submit"  onclick="return passwordvalidate()"/> 
+</form>
+</div>
+</body>
+</html>

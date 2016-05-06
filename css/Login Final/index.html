@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <script src="validation.js"></script>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body >
+<div class="mainBody"><br>
+    <div class="container"><img class="imgClass" src="profilepic.jpg" width="80" height="70" /><br><br><br>
+        <h2>WELCOME</h2>
+   <form class="form" id="formid" name="login" >
+
+            <input type="email"  placeholder="Username"  name="uname" id="name"  required ><br>
+            <input type="password" placeholder="Password" id="password" onfocus="return namevalidate()" required>
+           <button type="submit" id="login-button" onclick="validate();">Login</button>
+        </form>
+
+
+        </div>
+</div>
+</body>
+</html>

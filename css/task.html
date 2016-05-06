@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function validaphone()
+	     {
+		var phone1=document.getElementById("phone").value;
+		var reg=/[^1-9]+$/;
+		if(phone1.match(reg))
+		
+	alert("wrong");
+			
+		
+		else
+		{
+			alert("right");
+		
+		}
+   }
+	</script>
+</head>
+<body>
+phone number <input type="text" id="phone"> </input></div>
+   
+	<input type="button" value="submit"  onclick="validaphone()"/> 
+</body>
+</html>
